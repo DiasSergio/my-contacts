@@ -56,7 +56,7 @@ const Contact = ({
     <S.Card>
       <label htmlFor={name}>
         <S.Title>
-          {isEditing && <em>Editting:</em>}
+          {isEditing && <em>Editting: </em>}
           {name}
         </S.Title>
       </label>
